@@ -18,7 +18,7 @@
 <p style="font-size: 22px;">🌱 <strong>things i've done</strong></p>
     <div>
         <img height="200em" src="https://github-readme-stats.vercel.app/api?username=jsalexsandro&show_icons=truecccustom_title=GitHub Stats&include_all_commits=true&hide_border=true&border_radius=0&bg_color=10,0077b5,d14836&title_color=ffffff&text_color=ffffff&icon_color=ffffff&hide_title=true" alt="Github Stats">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsalexsandro&layout=compact&langs_count=10&hide_border=true&border_radius=0&bg_color=10,6f7db0,e4405f&title_color=ffffff&text_color=ffffff&hide_title=true&count_private=true&" alt="Top Langs">
+        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsalexsandro&layout=compact&langs_count=20&hide_border=true&border_radius=0&bg_color=10,6f7db0,e4405f&title_color=ffffff&text_color=ffffff&hide_title=true&count_private=true&" alt="Top Langs">
     </div>
 
 
