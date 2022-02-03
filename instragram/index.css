@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    transition: 0.2s;
+    font-family: "Fire Code", monospace;
+}
+
+#site-header {
+    /* background-image: url("../assets/image/image.jpg"); */
+    background-color: #004480;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel {
+    width: 555px;
+    height: 85%;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 1rem 0px rgba(0,0,0, 0.2); */
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#ball {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 230px;
+    height: 230px;
+    margin-top: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.panel-text {
+    color: #004480;
+    font-size:160px;
+    /* letter-spacing: -2rem; */
+}
+
+.panel-text-2 {
+    color: #002d55;
+
+}
+
+#text-header {
+    color: rgba(255, 255, 255, 0.85);
+    /* font-variant: small-caps; */
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+@media (max-width:600px){
+    #site-header {
+        height: 18rem;
+        
+    }
+    
+    #ball {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    #panel {
+        height: 80%;
+        width: 330px;
+    } 
+
+    .panel-text {
+        font-size:100px;
+    }
+
+    #text-header {
+        font-size: 20px;
+        margin-top:0.5rem;
+    }
+}
