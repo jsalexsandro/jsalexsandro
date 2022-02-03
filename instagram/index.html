@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#004480">
+    <script>
+        const words = [
+            "J","O","S","É","   ","A","L","E","X","S","A","N","D","R","O"
+        ]
+        window.onload = () => {
+            var count = 0
+                setInterval(() => {
+                if(count < words.length){
+                    document.getElementById("text-header").innerHTML += words[count]
+                    count++
+                
+                }
+            },100)
+        }
+    </script>
 </head>
 <body>
     <noscript>
@@ -16,10 +32,10 @@
     <header id="site-header">
         <section id="panel">
             <div id="ball">
-                <p class="panel-text">J<span class="panel-text panel-text-2">A</span></p>
+                <p class="panel-text">JA</span></p>
             </div>
             <h1 id="text-header">
-                José Alexsandro
+                
             </h1>
         </section>
     </header>
